@@ -1,0 +1,27 @@
+<? php
+    inculde "/db.php" ;
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div id=login align=center>
+    <form action="member/login_ok.php" method="POST">
+        <input type="text" name="ID" placeholder="ID" > </br>
+        <input type="text" name="PASSWORD" placeholder="password"> </br>
+        <input type="submit" value="login"></form></br>
+        <a href="member/member.php">회원가입</a>
+
+
+    <form method="post" action="/member/login_ok.php">
+    </form>
+</div>
+
+</body>
+</html>
